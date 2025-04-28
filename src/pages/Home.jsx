@@ -68,7 +68,7 @@ const Home = () => {
     <div className="min-w-full container">
      
       {/* Search Bar and Filter Dropdown are placed in App.js */}
-      <div className=" h-14 bg-blue-500 text-white flex justify-center items-center text-2xl sticky top-0">
+      <div className=" h-14 bg-blue-500 text-white flex justify-center items-center gap-4 text-2xl sticky top-0">
         <SearchBar onSearch={handleSearch} />
         <FilterDropdown onFilter={handleFilter} />
       </div>
