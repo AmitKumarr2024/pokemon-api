@@ -73,7 +73,7 @@ const Home = () => {
         <FilterDropdown onFilter={handleFilter} />
       </div>
 
-      <div className="pokemon-list grid grid-cols-1 md:grid-cols-3 gap-4">
+      <div className="pokemon-list grid grid-cols-1 md:grid-cols-3 gap-4 z-10">
         {filteredPokemon.map((pokemon, index) => (
           <PokemonCard key={index} name={pokemon.name} />
         ))}
